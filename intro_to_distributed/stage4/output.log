@@ -1,0 +1,591 @@
+
+[STEP 1]
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------------< stage4:stage4 >----------------------------
+[INFO] Building stage4 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ stage4 ---
+[INFO] Deleting /Users/mosherosensweig/GIT/MosheRosensweig/intro_to_distributed/stage4/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ stage4 ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ stage4 ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 26 source files to /Users/mosherosensweig/GIT/MosheRosensweig/intro_to_distributed/stage4/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ stage4 ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /Users/mosherosensweig/GIT/MosheRosensweig/intro_to_distributed/stage4/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ stage4 ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 3 source files to /Users/mosherosensweig/GIT/MosheRosensweig/intro_to_distributed/stage4/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ stage4 ---
+[INFO] Surefire report directory: /Users/mosherosensweig/GIT/MosheRosensweig/intro_to_distributed/stage4/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running edu.yu.cs.fall2019.intro_to_distributed.stage4.Stage4Test
+The following Test will have printouts that demonstrate:
+-Elections and Reelections Work
+	 -a- First it will elect server 8
+	 -a- Then it will kill server 8 and server 5 (the Leader and a Follower)
+	     so, when server 7 takes over, the quorum will be down 2 servers
+	 -c- Then it will elect server 7
+	 -d- Then it will kill 7, and elect server 6
+	 --- All of this election Logic will be printed out and asserted (well not the last part, but the earlier stuff is enough proof)
+Throughout all of this it will handle various client requests and print out and assert that it's working
+	 --> For each request, I print out the whole journey of a client request, from the Client->Gateway->Leader->Follower and back.
+	 So it will print like this:
+		-i-    Which leader gets it
+		-ii-   Which which follower it sends it to
+		-iii-  The follower receiving it
+		-iv-   The follower doing the work
+		-v-    Which leader receives the completed work
+		-vi-   and subsequently, the client request will be fulfilled
+At the end, I demonstrate sending out a request to the cluster and then "right away" kill the leader
+	and if you look at my printouts, it will show that the follower gets the work from
+	one leader but responds to a different leader with the completed work
+	NOTE: I kill the send the request, and then wait 1 second, and then kill the leader.
+	On my computer, when I run it in IntelliJ, the leader receives and sends the message before it dies, so the program terminates.
+	However, when I run it with maven on my machine, that same test never terminates, because the leader dies with the message in it
+	and the client waits forever for a response.
+
+At the end, it will print out the state of each server. See that the epoch, leader, and peerList are all updated correctly
+waiting...
+waiting...
+waiting...
+waiting...
+waiting...
+Election concluded! Leader for server 6 is server 8, my state is FOLLOWING. (The leading vote = (8, 0)
+Election concluded! Leader for server 7 is server 8, my state is FOLLOWING. (The leading vote = (8, 0)
+Election concluded! Leader for server 4 is server 8, my state is FOLLOWING. (The leading vote = (8, 0)
+Election concluded! Leader for server 9 is server 8, my state is OBSERVING. (The leading vote = (8, 0)
+Election concluded! Leader for server 1 is server 8, my state is FOLLOWING. (The leading vote = (8, 0)
+Election concluded! Leader for server 3 is server 8, my state is FOLLOWING. (The leading vote = (8, 0)
+Election concluded! Leader for server 2 is server 8, my state is FOLLOWING. (The leading vote = (8, 0)
+Election concluded! Leader for server 5 is server 8, my state is FOLLOWING. (The leading vote = (8, 0)
+Election concluded! Leader for server 8 is server 8, my state is LEADING. (The leading vote = (8, 0)
+Numbers of servers = 9,  quorum size = 5
+Server on port 8080 whose ID is 1 has the following ID as its leader: 8 and its state is FOLLOWING
+Server on port 8090 whose ID is 2 has the following ID as its leader: 8 and its state is FOLLOWING
+Server on port 8100 whose ID is 3 has the following ID as its leader: 8 and its state is FOLLOWING
+Server on port 8110 whose ID is 4 has the following ID as its leader: 8 and its state is FOLLOWING
+Server on port 8120 whose ID is 5 has the following ID as its leader: 8 and its state is FOLLOWING
+Server on port 8130 whose ID is 6 has the following ID as its leader: 8 and its state is FOLLOWING
+Server on port 8140 whose ID is 7 has the following ID as its leader: 8 and its state is FOLLOWING
+Server on port 8150 whose ID is 8 has the following ID as its leader: 8 and its state is LEADING
+Server on port 7090 whose ID is 9 has the following ID as its leader: 8 and its state is OBSERVING
+Sending a client request (right before the leader dies)
+<><><><><><><><><><><><><><><><><><><><><><><>
+<>	testCompileAndRunWorkingClass
+<><><><><><><><><><><><><><><><><><><><><><><>
+Gateway received message and gave it request id = 0 to send to the leader at port:8150
+Gateway TCPSender sending message with id 0 to leader at port:8150
+TCPReceiver for Leader at port:8150, got message with request id = 0 from the gateway
+Sending message with request id = 0, from LEADER at port:8150, to FOLLOWER at port:8110
+Got a message from LEADER at port:8150 with message request id = 0 at FOLLOWER port:8110
+Finished doing Work for message with request id = 0
+Sending back to the Gateway, message with request id = 0 from FOLLOWER port:8110 via LEADER port:8150
+EXPECTED:
+System.err:[]System.out:[SampleClass has been compiled and run!! For Fun?]
+ACTUAL:
+System.err:[]System.out:[SampleClass has been compiled and run!! For Fun?]
+Killing the leader
+Killing sever 5 (port:8120)
+Election concluded! Leader for server 2 is server 7, my state is FOLLOWING. (The leading vote = (7, 1)
+Election concluded! Leader for server 6 is server 7, my state is FOLLOWING. (The leading vote = (7, 1)
+Election concluded! Leader for server 3 is server 7, my state is FOLLOWING. (The leading vote = (7, 1)
+Election concluded! Leader for server 9 is server 7, my state is OBSERVING. (The leading vote = (7, 1)
+Election concluded! Leader for server 7 is server 7, my state is LEADING. (The leading vote = (7, 1)
+Election concluded! Leader for server 1 is server 7, my state is FOLLOWING. (The leading vote = (7, 1)
+Election concluded! Leader for server 4 is server 7, my state is FOLLOWING. (The leading vote = (7, 1)
+Killing sever new leader, 7 (port:8140)
+Election concluded! Leader for server 9 is server 6, my state is OBSERVING. (The leading vote = (6, 2)
+Election concluded! Leader for server 3 is server 6, my state is FOLLOWING. (The leading vote = (6, 2)
+Election concluded! Leader for server 4 is server 6, my state is FOLLOWING. (The leading vote = (6, 2)
+Election concluded! Leader for server 6 is server 6, my state is LEADING. (The leading vote = (6, 2)
+Election concluded! Leader for server 2 is server 6, my state is FOLLOWING. (The leading vote = (6, 2)
+Election concluded! Leader for server 1 is server 6, my state is FOLLOWING. (The leading vote = (6, 2)
+<><><><><><><><><><><><><><><><><><><><><><><>
+<>	testCompileAndRunWorkingClass
+<><><><><><><><><><><><><><><><><><><><><><><>
+Gateway received message and gave it request id = 1 to send to the leader at port:8130
+Gateway TCPSender sending message with id 1 to leader at port:8130
+TCPReceiver for Leader at port:8130, got message with request id = 1 from the gateway
+Sending message with request id = 1, from LEADER at port:8130, to FOLLOWER at port:8080
+Got a message from LEADER at port:8130 with message request id = 1 at FOLLOWER port:8080
+Finished doing Work for message with request id = 1
+Sending back to the Gateway, message with request id = 1 from FOLLOWER port:8080 via LEADER port:8130
+EXPECTED:
+System.err:[]System.out:[SampleClass has been compiled and run!! For Fun?]
+ACTUAL:
+System.err:[]System.out:[SampleClass has been compiled and run!! For Fun?]
+end of test
+Server id:1, port:8080 is FOLLOWING and is following sid:6, epoch = 2, quarumSize:3
+Server id:2, port:8090 is FOLLOWING and is following sid:6, epoch = 2, quarumSize:3
+Server id:3, port:8100 is FOLLOWING and is following sid:6, epoch = 2, quarumSize:3
+Server id:4, port:8110 is FOLLOWING and is following sid:6, epoch = 2, quarumSize:3
+Server id:5, port:8120 is FOLLOWING and is following sid:8, epoch = 0, quarumSize:5
+Server id:6, port:8130 is LEADING and is following sid:6, epoch = 2, quarumSize:3
+Server id:7, port:8140 is LEADING and is following sid:7, epoch = 1, quarumSize:4
+Server id:8, port:8150 is LEADING and is following sid:8, epoch = 0, quarumSize:5
+Server id:9, port:7090 is OBSERVING and is following sid:6, epoch = 2, quarumSize:3
+Server id:1, port:8080 map = {2=localhost/127.0.0.1:8090, 3=localhost/127.0.0.1:8100, 4=localhost/127.0.0.1:8110, 6=localhost/127.0.0.1:8130, 9=localhost/127.0.0.1:7090}
+Server id:2, port:8090 map = {1=localhost/127.0.0.1:8080, 3=localhost/127.0.0.1:8100, 4=localhost/127.0.0.1:8110, 6=localhost/127.0.0.1:8130, 9=localhost/127.0.0.1:7090}
+Server id:3, port:8100 map = {1=localhost/127.0.0.1:8080, 2=localhost/127.0.0.1:8090, 4=localhost/127.0.0.1:8110, 6=localhost/127.0.0.1:8130, 9=localhost/127.0.0.1:7090}
+Server id:4, port:8110 map = {1=localhost/127.0.0.1:8080, 2=localhost/127.0.0.1:8090, 3=localhost/127.0.0.1:8100, 6=localhost/127.0.0.1:8130, 9=localhost/127.0.0.1:7090}
+Server id:5, port:8120 map = {1=localhost/127.0.0.1:8080, 2=localhost/127.0.0.1:8090, 3=localhost/127.0.0.1:8100, 4=localhost/127.0.0.1:8110, 6=localhost/127.0.0.1:8130, 7=localhost/127.0.0.1:8140, 8=localhost/127.0.0.1:8150, 9=localhost/127.0.0.1:7090}
+Server id:6, port:8130 map = {1=localhost/127.0.0.1:8080, 2=localhost/127.0.0.1:8090, 3=localhost/127.0.0.1:8100, 4=localhost/127.0.0.1:8110, 9=localhost/127.0.0.1:7090}
+Server id:7, port:8140 map = {1=localhost/127.0.0.1:8080, 2=localhost/127.0.0.1:8090, 3=localhost/127.0.0.1:8100, 4=localhost/127.0.0.1:8110, 6=localhost/127.0.0.1:8130, 9=localhost/127.0.0.1:7090}
+Server id:8, port:8150 map = {1=localhost/127.0.0.1:8080, 2=localhost/127.0.0.1:8090, 3=localhost/127.0.0.1:8100, 4=localhost/127.0.0.1:8110, 5=localhost/127.0.0.1:8120, 6=localhost/127.0.0.1:8130, 7=localhost/127.0.0.1:8140, 9=localhost/127.0.0.1:7090}
+Server id:9, port:7090 map = {1=localhost/127.0.0.1:8080, 2=localhost/127.0.0.1:8090, 3=localhost/127.0.0.1:8100, 4=localhost/127.0.0.1:8110, 6=localhost/127.0.0.1:8130}
+<><><><><><><><><><><><><><><><><><><><><><><>
+<>	Test: Send Client message, kill the leader and then try to get a response
+<><><><><><><><><><><><><><><><><><><><><><><>
+Killing server id:6
+Gateway received message and gave it request id = 2 to send to the leader at port:8130
+Attempting to send message id:2, but instead wait for a new connection
+Election concluded! Leader for server 2 is server 4, my state is FOLLOWING. (The leading vote = (4, 3)
+Election concluded! Leader for server 3 is server 4, my state is FOLLOWING. (The leading vote = (4, 3)
+Election concluded! Leader for server 4 is server 4, my state is LEADING. (The leading vote = (4, 3)
+Election concluded! Leader for server 1 is server 4, my state is FOLLOWING. (The leading vote = (4, 3)
+Election concluded! Leader for server 9 is server 4, my state is OBSERVING. (The leading vote = (4, 3)
+Gateway TCPSender sending message with id 2 to leader at port:8110
+TCPReceiver for Leader at port:8110, got message with request id = 2 from the gateway
+Sending message with request id = 2, from LEADER at port:8130, to FOLLOWER at port:8080
+Got a message from LEADER at port:8130 with message request id = 2 at FOLLOWER port:8080
+Finished doing Work for message with request id = 2
+Sending back to the Gateway, message with request id = 2 from FOLLOWER port:8080 via LEADER port:8110
+EXPECTED:
+System.err:[]System.out:[SampleClass has been compiled and run!! For Fun?]
+ACTUAL:
+System.err:[]System.out:[SampleClass has been compiled and run!! For Fun?]
+ Test Concluded
+NOTE: If the program doesn't terminate, that means that the leader died with the client request before sending it out
+If you want, you can run the other test in here labeled "demonstrateThatGossipWorks", but both together have tcp bind issues
+Note: There might be some exceptions due to program termination at the end of this
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 60.15 sec
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:04 min
+[INFO] Finished at: 2020-01-07T00:16:52-05:00
+[INFO] ------------------------------------------------------------------------
+
+[STEP 2]
+
+[STEP 3]
+Server 1 Started
+Server 4 Started
+Server 3 Started
+Server 7 StartedServer 6 Started
+
+Server 5 Started
+Server 8 Started
+Server 2 Started
+
+Leader is sid:7
+	Server 1 is FOLLOWING
+	Server 2 is FOLLOWING
+	Server 3 is FOLLOWING
+	Server 4 is FOLLOWING
+	Server 5 is FOLLOWING
+	Server 6 is FOLLOWING
+	Server 7 is LEADING
+	Server 8 is OBSERVING
+
+[STEP 5]
+The request code = 
+public class SampleClass_t {
+	    public void run() {
+	        System.out.println( "SampleClass has been compiled and run!! Test number 0" );
+	        //System.err.println("I am not a fish man, stop saying that!");
+	         //throw new RuntimeException("You are a geek");
+	         //throw new NullPointerException("blaaaaaaaah");
+	    }
+	}
+
+ The resonpose =
+System.err:
+[]
+System.out:
+[SampleClass has been compiled and run!! Test number 0
+]
+
+The request code = 
+public class SampleClass_t {
+	    public void run() {
+	        System.out.println( "SampleClass has been compiled and run!! Test number 1" );
+	        //System.err.println("I am not a fish man, stop saying that!");
+	         //throw new RuntimeException("You are a geek");
+	         //throw new NullPointerException("blaaaaaaaah");
+	    }
+	}
+
+ The resonpose =
+System.err:
+[]
+System.out:
+[SampleClass has been compiled and run!! Test number 1
+]
+
+The request code = 
+public class SampleClass_t {
+	    public void run() {
+	        System.out.println( "SampleClass has been compiled and run!! Test number 2" );
+	        //System.err.println("I am not a fish man, stop saying that!");
+	         //throw new RuntimeException("You are a geek");
+	         //throw new NullPointerException("blaaaaaaaah");
+	    }
+	}
+
+ The resonpose =
+System.err:
+[]
+System.out:
+[SampleClass has been compiled and run!! Test number 2
+]
+
+The request code = 
+public class SampleClass_t {
+	    public void run() {
+	        System.out.println( "SampleClass has been compiled and run!! Test number 3" );
+	        //System.err.println("I am not a fish man, stop saying that!");
+	         //throw new RuntimeException("You are a geek");
+	         //throw new NullPointerException("blaaaaaaaah");
+	    }
+	}
+
+ The resonpose =
+System.err:
+[]
+System.out:
+[SampleClass has been compiled and run!! Test number 3
+]
+
+The request code = 
+public class SampleClass_t {
+	    public void run() {
+	        System.out.println( "SampleClass has been compiled and run!! Test number 4" );
+	        //System.err.println("I am not a fish man, stop saying that!");
+	         //throw new RuntimeException("You are a geek");
+	         //throw new NullPointerException("blaaaaaaaah");
+	    }
+	}
+
+ The resonpose =
+System.err:
+[]
+System.out:
+[SampleClass has been compiled and run!! Test number 4
+]
+
+The request code = 
+public class SampleClass_t {
+	    public void run() {
+	        System.out.println( "SampleClass has been compiled and run!! Test number 5" );
+	        //System.err.println("I am not a fish man, stop saying that!");
+	         //throw new RuntimeException("You are a geek");
+	         //throw new NullPointerException("blaaaaaaaah");
+	    }
+	}
+
+ The resonpose =
+System.err:
+[]
+System.out:
+[SampleClass has been compiled and run!! Test number 5
+]
+
+The request code = 
+public class SampleClass_t {
+	    public void run() {
+	        System.out.println( "SampleClass has been compiled and run!! Test number 6" );
+	        //System.err.println("I am not a fish man, stop saying that!");
+	         //throw new RuntimeException("You are a geek");
+	         //throw new NullPointerException("blaaaaaaaah");
+	    }
+	}
+
+ The resonpose =
+System.err:
+[]
+System.out:
+[SampleClass has been compiled and run!! Test number 6
+]
+
+The request code = 
+public class SampleClass_t {
+	    public void run() {
+	        System.out.println( "SampleClass has been compiled and run!! Test number 7" );
+	        //System.err.println("I am not a fish man, stop saying that!");
+	         //throw new RuntimeException("You are a geek");
+	         //throw new NullPointerException("blaaaaaaaah");
+	    }
+	}
+
+ The resonpose =
+System.err:
+[]
+System.out:
+[SampleClass has been compiled and run!! Test number 7
+]
+
+The request code = 
+public class SampleClass_t {
+	    public void run() {
+	        System.out.println( "SampleClass has been compiled and run!! Test number 8" );
+	        //System.err.println("I am not a fish man, stop saying that!");
+	         //throw new RuntimeException("You are a geek");
+	         //throw new NullPointerException("blaaaaaaaah");
+	    }
+	}
+
+ The resonpose =
+System.err:
+[]
+System.out:
+[SampleClass has been compiled and run!! Test number 8
+]
+
+
+[STEP 5]
+Time to kill FOLLOWER #6
+demo.sh: line 48: 68141 Killed: 9               java -cp ./target/classes edu/yu/cs/fall2019/intro_to_distributed/Driver $i
+Leader is sid:7
+	Server 1 is FOLLOWING
+	Server 2 is FOLLOWING
+	Server 3 is FOLLOWING
+	Server 4 is FOLLOWING
+	Server 5 is FOLLOWING
+	Server 7 is LEADING
+	Server 8 is OBSERVING
+
+[STEP 6]
+Time to kill the leader id#7
+demo.sh: line 55: 68142 Killed: 9               java -cp ./target/classes edu/yu/cs/fall2019/intro_to_distributed/Driver $i
+The request code = 
+public class SampleClass_t {
+	    public void run() {
+	        System.out.println( "SampleClass has been compiled and run!! Test number 0" );
+	        //System.err.println("I am not a fish man, stop saying that!");
+	         //throw new RuntimeException("You are a geek");
+	         //throw new NullPointerException("blaaaaaaaah");
+	    }
+	}
+
+
+The request code = 
+public class SampleClass_t {
+	    public void run() {
+	        System.out.println( "SampleClass has been compiled and run!! Test number 1" );
+	        //System.err.println("I am not a fish man, stop saying that!");
+	         //throw new RuntimeException("You are a geek");
+	         //throw new NullPointerException("blaaaaaaaah");
+	    }
+	}
+
+
+The request code = 
+public class SampleClass_t {
+	    public void run() {
+	        System.out.println( "SampleClass has been compiled and run!! Test number 2" );
+	        //System.err.println("I am not a fish man, stop saying that!");
+	         //throw new RuntimeException("You are a geek");
+	         //throw new NullPointerException("blaaaaaaaah");
+	    }
+	}
+
+
+The request code = 
+public class SampleClass_t {
+	    public void run() {
+	        System.out.println( "SampleClass has been compiled and run!! Test number 3" );
+	        //System.err.println("I am not a fish man, stop saying that!");
+	         //throw new RuntimeException("You are a geek");
+	         //throw new NullPointerException("blaaaaaaaah");
+	    }
+	}
+
+
+The request code = 
+public class SampleClass_t {
+	    public void run() {
+	        System.out.println( "SampleClass has been compiled and run!! Test number 4" );
+	        //System.err.println("I am not a fish man, stop saying that!");
+	         //throw new RuntimeException("You are a geek");
+	         //throw new NullPointerException("blaaaaaaaah");
+	    }
+	}
+
+
+The request code = 
+public class SampleClass_t {
+	    public void run() {
+	        System.out.println( "SampleClass has been compiled and run!! Test number 5" );
+	        //System.err.println("I am not a fish man, stop saying that!");
+	         //throw new RuntimeException("You are a geek");
+	         //throw new NullPointerException("blaaaaaaaah");
+	    }
+	}
+
+
+The request code = 
+public class SampleClass_t {
+	    public void run() {
+	        System.out.println( "SampleClass has been compiled and run!! Test number 6" );
+	        //System.err.println("I am not a fish man, stop saying that!");
+	         //throw new RuntimeException("You are a geek");
+	         //throw new NullPointerException("blaaaaaaaah");
+	    }
+	}
+
+
+The request code = 
+public class SampleClass_t {
+	    public void run() {
+	        System.out.println( "SampleClass has been compiled and run!! Test number 7" );
+	        //System.err.println("I am not a fish man, stop saying that!");
+	         //throw new RuntimeException("You are a geek");
+	         //throw new NullPointerException("blaaaaaaaah");
+	    }
+	}
+
+
+The request code = 
+public class SampleClass_t {
+	    public void run() {
+	        System.out.println( "SampleClass has been compiled and run!! Test number 8" );
+	        //System.err.println("I am not a fish man, stop saying that!");
+	         //throw new RuntimeException("You are a geek");
+	         //throw new NullPointerException("blaaaaaaaah");
+	    }
+	}
+
+
+
+[STEP 7]
+Still in an election
+System.err:
+[]
+System.out:
+[SampleClass has been compiled and run!! Test number 4
+]System.err:
+[]
+System.out:
+[SampleClass has been compiled and run!! Test number 1
+]System.err:
+[]
+System.out:
+[SampleClass has been compiled and run!! Test number 3
+]Leader is sid:5
+	Server 1 is FOLLOWING
+	Server 2 is FOLLOWING
+	Server 3 is FOLLOWING
+	Server 4 is FOLLOWING
+	Server 5 is LEADING
+	Server 8 is OBSERVING
+Seeing if PIDS exist
+System.err:
+[]
+System.out:
+[SampleClass has been compiled and run!! Test number 6
+]System.err:
+[]
+System.out:
+[SampleClass has been compiled and run!! Test number 0
+]Pid 68172 is terminated
+Pid 68173 is terminated
+System.err:
+[]
+System.out:
+[SampleClass has been compiled and run!! Test number 8
+]System.err:
+[]
+System.out:
+[SampleClass has been compiled and run!! Test number 2
+]System.err:
+[]
+System.out:
+[SampleClass has been compiled and run!! Test number 5
+]Pid 68174 is terminated
+Pid 68175 is terminated
+Pid 68176 is terminated
+Pid 68177 is terminated
+Pid 68178 is terminated
+System.err:
+[]
+System.out:
+[SampleClass has been compiled and run!! Test number 7
+]Pid 68179 is terminated
+Pid 68180 is terminated
+
+[STEP 8]
+The request code = 
+public class SampleClass_t {
+	    public void run() {
+	        System.out.println( "SampleClass has been compiled and run!! Test number 0" );
+	        //System.err.println("I am not a fish man, stop saying that!");
+	         //throw new RuntimeException("You are a geek");
+	         //throw new NullPointerException("blaaaaaaaah");
+	    }
+	}
+
+ The resonpose =
+System.err:
+[]
+System.out:
+[SampleClass has been compiled and run!! Test number 0
+]
+
+The request code = 
+public class SampleClass_t {
+	    public void run() {
+	        System.out.println( "SampleClass has been compiled and run!! Test number 1" );
+	        //System.err.println("I am not a fish man, stop saying that!");
+	         //throw new RuntimeException("You are a geek");
+	         //throw new NullPointerException("blaaaaaaaah");
+	    }
+	}
+
+ The resonpose =
+System.err:
+[]
+System.out:
+[SampleClass has been compiled and run!! Test number 1
+]
+
+The request code = 
+public class SampleClass_t {
+	    public void run() {
+	        System.out.println( "SampleClass has been compiled and run!! Test number 2" );
+	        //System.err.println("I am not a fish man, stop saying that!");
+	         //throw new RuntimeException("You are a geek");
+	         //throw new NullPointerException("blaaaaaaaah");
+	    }
+	}
+
+ The resonpose =
+System.err:
+[]
+System.out:
+[SampleClass has been compiled and run!! Test number 2
+]
+
+
+[STEP 9]
+Killing all java serverskilling java

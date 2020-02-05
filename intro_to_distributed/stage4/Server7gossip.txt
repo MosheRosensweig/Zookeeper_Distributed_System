@@ -1,0 +1,24 @@
+Received a gossip Message from server on port:8090
+	Currently there are this many servers alive = 7
+	Currently my gossip map is: time = 1578374217922 <Port,Counter> -->{8080:0, 7090:0, 8130:0, 8100:0, 8120:0, 8090:1, 8110:0, }
+	The received gossip map is: time = 1578374217922 <Port,Counter> -->{8080:0, 7090:0, 8130:0, 8100:0, 8120:0, 8140:0, 8110:0, }
+Received a gossip Message from server on port:8080
+	Currently there are this many servers alive = 7
+	Currently my gossip map is: time = 1578374220045 <Port,Counter> -->{8080:2, 7090:2, 8130:2, 8100:2, 8120:2, 8090:2, 8110:1, }
+	The received gossip map is: time = 1578374220045 <Port,Counter> -->{7090:2, 8130:2, 8100:2, 8120:2, 8090:2, 8140:2, 8110:1, }
+Received a gossip Message from server on port:8090
+	Currently there are this many servers alive = 7
+	Currently my gossip map is: time = 1578374223936 <Port,Counter> -->{8080:3, 7090:3, 8130:3, 8100:3, 8120:3, 8090:4, 8110:3, }
+	The received gossip map is: time = 1578374223936 <Port,Counter> -->{8080:3, 7090:3, 8130:3, 8100:3, 8120:3, 8140:3, 8110:3, }
+Received a gossip Message from server on port:8080
+	Currently there are this many servers alive = 7
+	Currently my gossip map is: time = 1578374226049 <Port,Counter> -->{8080:5, 7090:5, 8130:4, 8100:5, 8120:5, 8090:5, 8110:4, }
+	The received gossip map is: time = 1578374226049 <Port,Counter> -->{7090:5, 8130:4, 8100:5, 8120:5, 8090:5, 8140:5, 8110:4, }
+Received a gossip Message from server on port:8120
+	Currently there are this many servers alive = 7
+	Currently my gossip map is: time = 1578374227941 <Port,Counter> -->{8080:5, 7090:6, 8130:4, 8100:5, 8120:6, 8090:6, 8110:5, }
+	The received gossip map is: time = 1578374227941 <Port,Counter> -->{8080:5, 7090:6, 8130:4, 8100:5, 8090:6, 8140:5, 8110:5, }
+Received a gossip Message from server on port:8120
+	Currently there are this many servers alive = 7
+	Currently my gossip map is: time = 1578374229941 <Port,Counter> -->{8080:6, 7090:7, 8130:4, 8100:6, 8120:7, 8090:7, 8110:6, }
+	The received gossip map is: time = 1578374229941 <Port,Counter> -->{8080:6, 7090:7, 8130:4, 8100:6, 8090:7, 8140:6, 8110:6, }

@@ -1,0 +1,1075 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bf569dcd-adb4-4634-9cf0-35bfb7dfdd07" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/yu/cs/fall2019/intro_to_distributed/util/Util2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="492">
+              <caret line="237" column="13" selection-start-line="237" selection-start-column="13" selection-end-line="237" selection-end-column="13" />
+              <folding>
+                <element signature="e#6613#6614#0" expanded="true" />
+                <element signature="e#6659#6660#0" expanded="true" />
+                <element signature="e#8590#8591#0" expanded="true" />
+                <element signature="e#8641#8642#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/yu/cs/fall2019/intro_to_distributed/stage4/faultTolerance/GossipHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="107">
+              <caret line="176" lean-forward="true" selection-start-line="176" selection-end-line="176" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/edu/yu/cs/fall2019/intro_to_distributed/stage4/Stage4Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="86">
+              <caret line="128" column="10" selection-start-line="128" selection-start-column="10" selection-end-line="128" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/yu/cs/fall2019/intro_to_distributed/Driver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="124">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit4 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>q</find>
+      <find>getQuorumSize</find>
+      <find>obser</find>
+      <find>byteArrToElectionNotification</find>
+      <find>MessageType</find>
+      <find>setCurrentLeader</find>
+      <find>killin</find>
+      <find>kil</find>
+      <find>delet</find>
+      <find>is</find>
+      <find>is run</find>
+      <find>respondin</find>
+      <find>no ele</find>
+      <find>no el</find>
+      <find>skipp</find>
+      <find>getvo</find>
+      <find>sent noti</find>
+      <find>getr</find>
+      <find>getra</find>
+      <find>gateway</find>
+      <find>test</find>
+      <find>Test number</find>
+      <find>test num</find>
+      <find>number</find>
+      <find>allocat</find>
+      <find>test nu</find>
+      <find>te</find>
+      <find>15</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/test/java/edu/yu/cs/fall2019/intro_to_distributed/stage4/Client.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/yu/cs/fall2019/intro_to_distributed/stage4/Stage3Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/yu/cs/fall2019/intro_to_distributed/stage4/GossipHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/yu/cs/fall2019/intro_to_distributed/stage4/SocketHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/yu/cs/fall2019/intro_to_distributed/stage4/HeartBeatGossipSender.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/yu/cs/fall2019/intro_to_distributed/stage4/DeadServerCleaner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/yu/cs/fall2019/intro_to_distributed/stage4/ElectionResponder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/yu/cs/fall2019/intro_to_distributed/stage4/ZooKeeperPeerServerImpl.java" />
+        <option value="$PROJECT_DIR$/MyLogFile.log" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/yu/cs/fall2019/intro_to_distributed/Util2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/yu/cs/fall2019/intro_to_distributed/ZooKeeperLeaderElection.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/yu/cs/fall2019/intro_to_distributed/stage4/ZooKeeperGatewayServerImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/intro_to_distributed/stage4/leader/RoundRobinLeader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/intro_to_distributed/election/ElectionNotification.java" />
+        <option value="$PROJECT_DIR$/src/main/java/intro_to_distributed/election/Vote.java" />
+        <option value="$PROJECT_DIR$/src/main/java/intro_to_distributed/stage4/servers/ZooKeeperPeerServerImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/intro_to_distributed/ZooKeeperPeerServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/intro_to_distributed/util/Util2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/intro_to_distributed/udp/UDPMessageReceiver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/intro_to_distributed/stage4/leader/RoundRobinFeeder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/intro_to_distributed/stage4/tcp/TCPMessageSender.java" />
+        <option value="$PROJECT_DIR$/src/main/java/intro_to_distributed/stage4/tcp/TCPMessageReciever.java" />
+        <option value="$PROJECT_DIR$/src/main/java/intro_to_distributed/stage4/leader/SocketHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/intro_to_distributed/stage4/faultTolerance/DeadServerCleaner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/intro_to_distributed/stage4/leader/GatewayFeeder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/intro_to_distributed/stage4/gateway/SimpleServerImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/intro_to_distributed/stage4/gateway/HTTPClientReplier.java" />
+        <option value="$PROJECT_DIR$/src/main/java/intro_to_distributed/stage4/gateway/GateWay.java" />
+        <option value="$PROJECT_DIR$/src/main/java/intro_to_distributed/stage4/follower/JavaRunnerFollower.java" />
+        <option value="$PROJECT_DIR$/src/main/java/intro_to_distributed/stage4/faultTolerance/HeartBeatGossipSender.java" />
+        <option value="$PROJECT_DIR$/src/main/java/intro_to_distributed/stage4/faultTolerance/GossipHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/intro_to_distributed/election/ZooKeeperLeaderElection.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/yu/cs/fall2019/intro_to_distributed/stage3/OldStage4Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/yu/cs/fall2019/intro_to_distributed/JavaRunnerImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/yu/cs/fall2019/intro_to_distributed/stage4/faultTolerance/Stage4Test.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/yu/cs/fall2019/intro_to_distributed/stage4/OldStage4Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/yu/cs/fall2019/intro_to_distributed/stage4/leader/GatewayFeeder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/yu/cs/fall2019/intro_to_distributed/stage4/leader/RoundRobinFeeder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/yu/cs/fall2019/intro_to_distributed/stage4/follower/JavaRunnerFollower.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/yu/cs/fall2019/intro_to_distributed/stage4/ClientImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/yu/cs/fall2019/intro_to_distributed/stage4/Driver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/yu/cs/fall2019/intro_to_distributed/stage4/servers/ZooKeeperPeerServerImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/yu/cs/fall2019/intro_to_distributed/stage4/gateway/GateWay.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/yu/cs/fall2019/intro_to_distributed/stage4/gateway/SimpleServerImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/yu/cs/fall2019/intro_to_distributed/stage4/tcp/TCPMessageSender.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/yu/cs/fall2019/intro_to_distributed/Message.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/yu/cs/fall2019/intro_to_distributed/stage4/tcp/TCPMessageReciever.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/yu/cs/fall2019/intro_to_distributed/stage4/Stage4Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/yu/cs/fall2019/intro_to_distributed/Driver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/yu/cs/fall2019/intro_to_distributed/util/Util2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/yu/cs/fall2019/intro_to_distributed/stage4/faultTolerance/GossipHandler.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="stage4" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="stage4" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="777" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="CatdeaLogs" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="stage4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stage4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stage4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stage4" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stage4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stage4" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stage4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stage4" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stage4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stage4" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="intro_to_distributed" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stage4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stage4" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="intro_to_distributed" type="462c0819:PsiDirectoryNode" />
+              <item name="stage4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stage4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stage4" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="intro_to_distributed" type="462c0819:PsiDirectoryNode" />
+              <item name="stage4" type="462c0819:PsiDirectoryNode" />
+              <item name="faultTolerance" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stage4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stage4" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="intro_to_distributed" type="462c0819:PsiDirectoryNode" />
+              <item name="stage4" type="462c0819:PsiDirectoryNode" />
+              <item name="leader" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stage4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stage4" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="intro_to_distributed" type="462c0819:PsiDirectoryNode" />
+              <item name="stage4" type="462c0819:PsiDirectoryNode" />
+              <item name="servers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stage4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stage4" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="intro_to_distributed" type="462c0819:PsiDirectoryNode" />
+              <item name="stage4" type="462c0819:PsiDirectoryNode" />
+              <item name="tcp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stage4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stage4" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="intro_to_distributed" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stage4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stage4" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stage4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stage4" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stage4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stage4" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="stage4" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/edu/yu/cs/fall2019/intro_to_distributed/stage4" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="edu.yu.cs.fall2019.intro_to_distributed.stage4.faultTolerance" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="edu.yu.cs.fall2019.intro_to_distributed" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/edu/yu/cs/fall2019/intro_to_distributed/stage4" />
+      <recent name="$PROJECT_DIR$/src/test" />
+      <recent name="$PROJECT_DIR$/src/main" />
+      <recent name="$PROJECT_DIR$/src/main/java" />
+      <recent name="$PROJECT_DIR$/src/main/java/edu/yu/cs/fall2019/intro_to_distributed/stage4" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="edu.yu.cs.fall2019.intro_to_distributed.stage4" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/OLD_TEST" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.Stage4Test">
+    <configuration name="OldStage4Test.testWithAClient" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="stage4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.yu.cs.fall2019.intro_to_distributed.stage3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.yu.cs.fall2019.intro_to_distributed.stage3" />
+      <option name="MAIN_CLASS_NAME" value="edu.yu.cs.fall2019.intro_to_distributed.stage3.OldStage4Test" />
+      <option name="METHOD_NAME" value="testWithAClient" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Stage4Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="stage4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.yu.cs.fall2019.intro_to_distributed.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.yu.cs.fall2019.intro_to_distributed.stage4" />
+      <option name="MAIN_CLASS_NAME" value="edu.yu.cs.fall2019.intro_to_distributed.stage4.Stage4Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Stage4Test.DemonStrateThatGossipWorks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="stage4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.yu.cs.fall2019.intro_to_distributed.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.yu.cs.fall2019.intro_to_distributed.stage4" />
+      <option name="MAIN_CLASS_NAME" value="edu.yu.cs.fall2019.intro_to_distributed.stage4.Stage4Test" />
+      <option name="METHOD_NAME" value="DemonStrateThatGossipWorks" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Stage4Test.testAllHaveTheSameLeader" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="stage4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.yu.cs.fall2019.intro_to_distributed.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.yu.cs.fall2019.intro_to_distributed.stage4" />
+      <option name="MAIN_CLASS_NAME" value="edu.yu.cs.fall2019.intro_to_distributed.stage4.Stage4Test" />
+      <option name="METHOD_NAME" value="testAllHaveTheSameLeader" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Stage4Test.testFaultToleranceWithoutGateway" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="stage4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.yu.cs.fall2019.intro_to_distributed.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.yu.cs.fall2019.intro_to_distributed.stage4" />
+      <option name="MAIN_CLASS_NAME" value="edu.yu.cs.fall2019.intro_to_distributed.stage4.Stage4Test" />
+      <option name="METHOD_NAME" value="testFaultToleranceWithoutGateway" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Stage4Test" />
+        <item itemvalue="JUnit.Stage4Test.DemonStrateThatGossipWorks" />
+        <item itemvalue="JUnit.OldStage4Test.testWithAClient" />
+        <item itemvalue="JUnit.Stage4Test.testFaultToleranceWithoutGateway" />
+        <item itemvalue="JUnit.Stage4Test.testAllHaveTheSameLeader" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bf569dcd-adb4-4634-9cf0-35bfb7dfdd07" name="Default Changelist" comment="" />
+      <created>1576974434764</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576974434764</updated>
+      <workItem from="1576974436506" duration="63000" />
+      <workItem from="1576979051941" duration="59694000" />
+      <workItem from="1577895730890" duration="11441000" />
+      <workItem from="1578004668007" duration="9285000" />
+      <workItem from="1578210075176" duration="10604000" />
+      <workItem from="1578334474100" duration="19795000" />
+    </task>
+    <task id="LOCAL-00001" summary="Started">
+      <created>1576995439728</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1576995439728</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Got working">
+      <created>1577050454428</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1577050454428</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Almost done with לשון הרע">
+      <created>1577125977451</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1577125977451</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Working to the end?">
+      <created>1577128610280</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1577128610281</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Some progress">
+      <created>1577386059752</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1577386059752</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Out with the old">
+      <created>1578208510741</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1578208510741</updated>
+    </task>
+    <task id="LOCAL-00007" summary="In with the new!">
+      <created>1578209588955</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1578209588955</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Supressed">
+      <created>1578210385940</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1578210385940</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Supressed">
+      <created>1578210507702</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1578210507702</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Tests">
+      <created>1578264247791</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1578264247791</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Tests updating">
+      <created>1578264514631</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1578264514631</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Tests updating">
+      <created>1578264706069</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1578264706069</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Tests updating">
+      <created>1578264795065</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1578264795065</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Tests updating">
+      <created>1578269323870</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1578269323870</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Tests updating">
+      <created>1578274928097</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1578274928097</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Big Bug Bust">
+      <created>1578363543866</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1578363543866</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Big Bug Bust p2">
+      <created>1578364635590</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1578364635590</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Maybe this fixed it?">
+      <created>1578370439527</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1578370439527</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Yeah....">
+      <created>1578371406342</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1578371406342</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Yeah....">
+      <created>1578371481839</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1578371481839</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Yeah....">
+      <created>1578373049295</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1578373049295</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Added Gossip Printing">
+      <created>1578373719663</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1578373719663</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Uncommented MAven">
+      <created>1578374278039</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1578374278039</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Stage4Test - 2020.01.06 at 21h 35m 51s.xml">
+      <configuration name="Stage4Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Stage4Test - 2020.01.06 at 21h 54m 58s.xml">
+      <configuration name="Stage4Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Stage4Test - 2020.01.06 at 22h 52m 34s.xml">
+      <configuration name="Stage4Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Stage4Test - 2020.01.06 at 22h 54m 09s.xml">
+      <configuration name="Stage4Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Stage4Test - 2020.01.06 at 22h 55m 28s.xml">
+      <configuration name="Stage4Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Stage4Test - 2020.01.06 at 23h 01m 59s.xml">
+      <configuration name="Stage4Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Stage4Test - 2020.01.06 at 23h 08m 04s.xml">
+      <configuration name="Stage4Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Stage4Test - 2020.01.06 at 23h 09m 28s.xml">
+      <configuration name="Stage4Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Stage4Test - 2020.01.06 at 23h 59m 34s.xml">
+      <configuration name="Stage4Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Stage4Test - 2020.01.07 at 00h 08m 37s.xml">
+      <configuration name="Stage4Test" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="110882000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1280" height="777" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26979" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329927" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.54890513" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.329927" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.329927" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Tool Output" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="ANTLR Preview" order="13" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.329927" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32956383" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2657512" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329927" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25839415" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.329927" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.329927" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Tool Output" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="ANTLR Preview" order="13" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.329927" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.32956383" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Started" />
+    <MESSAGE value="Got working" />
+    <MESSAGE value="Almost done with לשון הרע" />
+    <MESSAGE value="Working to the end?" />
+    <MESSAGE value="Some progress" />
+    <MESSAGE value="Out with the old" />
+    <MESSAGE value="In with the new!" />
+    <MESSAGE value="Supressed" />
+    <MESSAGE value="Tests" />
+    <MESSAGE value="Tests updating" />
+    <MESSAGE value="Big Bug Bust" />
+    <MESSAGE value="Big Bug Bust p2" />
+    <MESSAGE value="Maybe this fixed it?" />
+    <MESSAGE value="Yeah...." />
+    <MESSAGE value="Added Gossip Printing" />
+    <MESSAGE value="Uncommented MAven" />
+    <option name="LAST_COMMIT_MESSAGE" value="Uncommented MAven" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>inputPeerIDtoAddress.get(id).getPort()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>inputPeerIDtoAddress.get(id)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>getPort()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/yu/cs/fall2019/intro_to_distributed/stage4/GateWay.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/yu/cs/fall2019/intro_to_distributed/stage4/JavaRunnerFollower.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/yu/cs/fall2019/intro_to_distributed/stage4/ZooKeeperPeerServerImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/yu/cs/fall2019/intro_to_distributed/stage4/RoundRobinLeader.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/yu/cs/fall2019/intro_to_distributed/stage4/SocketHandler.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/intro_to_distributed/ZooKeeperPeerServer.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/intro_to_distributed/Message.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/intro_to_distributed/JavaRunnerImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/intro_to_distributed/JavaRunner.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/intro_to_distributed/util/Util2.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/intro_to_distributed/udp/UDPMessageReceiver.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/intro_to_distributed/stage4/tcp/TCPMessageSender.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/intro_to_distributed/stage4/tcp/TCPMessageReciever.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/intro_to_distributed/stage4/leader/RoundRobinLeader.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/intro_to_distributed/stage4/leader/RoundRobinFeeder.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/intro_to_distributed/stage4/leader/GatewayFeeder.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/intro_to_distributed/stage4/gateway/SimpleServerImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/intro_to_distributed/stage4/gateway/HTTPClientReplier.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/intro_to_distributed/stage4/gateway/GateWay.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/intro_to_distributed/stage4/follower/JavaRunnerFollower.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/intro_to_distributed/stage4/leader/SocketHandler.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/intro_to_distributed/stage4/faultTolerance/GossipHandler.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/intro_to_distributed/stage4/faultTolerance/DeadServerCleaner.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/intro_to_distributed/election/ZooKeeperLeaderElection.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/intro_to_distributed/election/Vote.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/intro_to_distributed/election/ElectionNotification.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/intro_to_distributed/stage4/faultTolerance/HeartBeatGossipSender.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/intro_to_distributed/stage4/servers/ZooKeeperPeerServerImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/yu/cs/fall2019/intro_to_distributed/JavaRunnerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="25" column="34" lean-forward="true" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+          <folding>
+            <element signature="e#426#456#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OLD_TESTS/stage3/OldStage4Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding>
+            <element signature="method#testFaultToleranceWithoutGateway#0;class#OldStage4Test#0" />
+            <element signature="method#retestWithAGatewayThisTime#0;class#OldStage4Test#0" />
+            <element signature="method#assertPeerListIsUpdatedCorrectly#0;class#OldStage4Test#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OLD_TESTS/stage3/edu/yu/cs/fall2019/intro_to_distributed/stage2/Stage2Test.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/yu/cs/fall2019/intro_to_distributed/udp/UDPMessageSender.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/yu/cs/fall2019/intro_to_distributed/stage4/faultTolerance/Stage4Test.java" />
+    <entry file="file://$PROJECT_DIR$/src/OLD_TESTS/OldStage4Test.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/yu/cs/fall2019/intro_to_distributed/stage4/leader/GatewayFeeder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="67" column="81" selection-start-line="67" selection-start-column="81" selection-end-line="67" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/yu/cs/fall2019/intro_to_distributed/stage4/follower/JavaRunnerFollower.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="63" column="85" selection-start-line="63" selection-start-column="84" selection-end-line="63" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/yu/cs/fall2019/intro_to_distributed/stage4/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/yu/cs/fall2019/intro_to_distributed/stage4/ClientImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/yu/cs/fall2019/intro_to_distributed/stage4/faultTolerance/DeadServerCleaner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="90" column="13" lean-forward="true" selection-start-line="90" selection-start-column="13" selection-end-line="90" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/yu/cs/fall2019/intro_to_distributed/stage4/servers/ZooKeeperPeerServerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="439" column="25" selection-start-line="439" selection-start-column="25" selection-end-line="439" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/yu/cs/fall2019/intro_to_distributed/stage4/leader/RoundRobinFeeder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="51" column="83" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/yu/cs/fall2019/intro_to_distributed/stage4/gateway/GateWay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="152" column="35" selection-start-line="152" selection-start-column="35" selection-end-line="152" selection-end-column="35" />
+          <folding>
+            <element signature="e#2241#2242#0" expanded="true" />
+            <element signature="e#2272#2273#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/yu/cs/fall2019/intro_to_distributed/stage4/gateway/HTTPClientReplier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/yu/cs/fall2019/intro_to_distributed/stage4/gateway/SimpleServerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-52">
+          <caret line="129" column="49" selection-start-line="129" selection-start-column="49" selection-end-line="129" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/yu/cs/fall2019/intro_to_distributed/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="142" column="7" lean-forward="true" selection-start-line="142" selection-start-column="7" selection-end-line="142" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/yu/cs/fall2019/intro_to_distributed/stage4/tcp/TCPMessageSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="51" column="140" selection-start-line="51" selection-start-column="140" selection-end-line="51" selection-end-column="140" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/yu/cs/fall2019/intro_to_distributed/stage4/tcp/TCPMessageReciever.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="53" column="70" selection-start-line="53" selection-start-column="70" selection-end-line="53" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/yu/cs/fall2019/intro_to_distributed/stage4/Stage4Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="128" column="10" selection-start-line="128" selection-start-column="10" selection-end-line="128" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/yu/cs/fall2019/intro_to_distributed/Driver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/yu/cs/fall2019/intro_to_distributed/util/Util2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="492">
+          <caret line="237" column="13" selection-start-line="237" selection-start-column="13" selection-end-line="237" selection-end-column="13" />
+          <folding>
+            <element signature="e#6613#6614#0" expanded="true" />
+            <element signature="e#6659#6660#0" expanded="true" />
+            <element signature="e#8590#8591#0" expanded="true" />
+            <element signature="e#8641#8642#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/yu/cs/fall2019/intro_to_distributed/stage4/faultTolerance/GossipHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="176" lean-forward="true" selection-start-line="176" selection-end-line="176" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>stage4</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -1,0 +1,52 @@
+Received a gossip Message from server on port:8080
+	Currently there are this many servers alive = 7
+	Currently my gossip map is: time = 1578374218035 <Port,Counter> -->{8080:1, 7090:1, 8130:1, 8120:1, 8090:1, 8140:1, 8110:0, }
+	The received gossip map is: time = 1578374218035 <Port,Counter> -->{7090:1, 8130:1, 8100:1, 8120:1, 8090:1, 8140:1, 8110:0, }
+Received a gossip Message from server on port:8080
+	Currently there are this many servers alive = 7
+	Currently my gossip map is: time = 1578374222044 <Port,Counter> -->{8080:3, 7090:3, 8130:3, 8120:3, 8090:3, 8140:3, 8110:3, }
+	The received gossip map is: time = 1578374222044 <Port,Counter> -->{7090:3, 8130:3, 8100:3, 8120:3, 8090:3, 8140:3, 8110:2, }
+Received a gossip Message from server on port:8120
+	Currently there are this many servers alive = 7
+	Currently my gossip map is: time = 1578374223941 <Port,Counter> -->{8080:3, 7090:4, 8130:3, 8120:4, 8090:4, 8140:3, 8110:3, }
+	The received gossip map is: time = 1578374223941 <Port,Counter> -->{8080:3, 7090:4, 8130:3, 8100:3, 8090:4, 8140:3, 8110:3, }
+Received a gossip Message from server on port:8080
+	Currently there are this many servers alive = 7
+	Currently my gossip map is: time = 1578374224045 <Port,Counter> -->{8080:4, 7090:4, 8130:4, 8120:4, 8090:4, 8140:4, 8110:4, }
+	The received gossip map is: time = 1578374224045 <Port,Counter> -->{7090:4, 8130:4, 8100:4, 8120:4, 8090:4, 8140:4, 8110:3, }
+Received a gossip Message from server on port:8110
+	Currently there are this many servers alive = 7
+	Currently my gossip map is: time = 1578374226048 <Port,Counter> -->{8080:5, 7090:5, 8130:4, 8120:5, 8090:5, 8140:5, 8110:5, }
+	The received gossip map is: time = 1578374226048 <Port,Counter> -->{8080:4, 7090:5, 8130:4, 8100:5, 8120:5, 8090:5, 8140:5, }
+Received a gossip Message from server on port:8090
+	Currently there are this many servers alive = 7
+	Currently my gossip map is: time = 1578374227935 <Port,Counter> -->{8080:5, 7090:5, 8130:4, 8120:5, 8090:6, 8140:5, 8110:5, }
+	The received gossip map is: time = 1578374227935 <Port,Counter> -->{8080:5, 7090:5, 8130:4, 8100:5, 8120:5, 8140:5, 8110:5, }
+Received a gossip Message from server on port:8110
+	Currently there are this many servers alive = 7
+	Currently my gossip map is: time = 1578374228048 <Port,Counter> -->{8080:6, 7090:6, 8130:4, 8120:6, 8090:6, 8140:6, 8110:6, }
+	The received gossip map is: time = 1578374228048 <Port,Counter> -->{8080:5, 7090:6, 8130:4, 8100:6, 8120:6, 8090:6, 8140:6, }
+Received a gossip Message from server on port:7090
+	Currently there are this many servers alive = 7
+	Currently my gossip map is: time = 1578374235942 <Port,Counter> -->{8080:9, 7090:10, 8130:4, 8120:9, 8090:10, 8140:8, 8110:9, }
+	The received gossip map is: time = 1578374235942 <Port,Counter> -->{8080:9, 8130:4, 8100:9, 8120:9, 8090:9, 8140:8, 8110:9, }
+Received a gossip Message from server on port:8090
+	Currently there are this many servers alive = 7
+	Currently my gossip map is: time = 1578374235942 <Port,Counter> -->{8080:9, 7090:10, 8130:4, 8120:9, 8090:10, 8140:8, 8110:9, }
+	The received gossip map is: time = 1578374235942 <Port,Counter> -->{8080:9, 7090:9, 8130:4, 8100:9, 8120:9, 8140:8, 8110:9, }
+Received a gossip Message from server on port:8080
+	Currently there are this many servers alive = 6
+	Currently my gossip map is: time = 1578374236062 <Port,Counter> -->{8080:10, 7090:10, 8120:10, 8090:10, 8140:8, 8110:10, }
+	The received gossip map is: time = 1578374236065 <Port,Counter> -->{7090:10, 8130:4, 8100:10, 8120:10, 8090:10, 8140:8, 8110:9, }
+Received a gossip Message from server on port:8090
+	Currently there are this many servers alive = 6
+	Currently my gossip map is: time = 1578374237950 <Port,Counter> -->{8080:10, 7090:11, 8120:10, 8090:11, 8140:8, 8110:10, }
+	The received gossip map is: time = 1578374237950 <Port,Counter> -->{8080:10, 7090:10, 8130:4, 8100:10, 8120:10, 8140:8, 8110:10, }
+Received a gossip Message from server on port:8080
+	Currently there are this many servers alive = 6
+	Currently my gossip map is: time = 1578374238066 <Port,Counter> -->{8080:11, 7090:11, 8120:11, 8090:11, 8140:8, 8110:11, }
+	The received gossip map is: time = 1578374238066 <Port,Counter> -->{7090:11, 8100:11, 8120:11, 8090:11, 8140:8, 8110:11, }
+Received a gossip Message from server on port:7090
+	Currently there are this many servers alive = 6
+	Currently my gossip map is: time = 1578374239946 <Port,Counter> -->{8080:11, 7090:12, 8120:11, 8090:11, 8140:8, 8110:11, }
+	The received gossip map is: time = 1578374239946 <Port,Counter> -->{8080:11, 8100:11, 8120:11, 8090:11, 8140:8, 8110:11, }
